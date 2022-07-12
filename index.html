@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<main>
+		<section>
+			<div id="ejercicio1" class="sections_titles">Crea un programa que escriba el número 7 en pantalla</div>
+			<input type="submit" onclick="mostrarNumero()" value="Muéstrame el número">
+			<span id="mensaje" class="mensajes"></span>
+		</section>
+		
+
+		
+
+		
+		<section>
+			<div class="sections_titles">Crea un programa que escriba 1234567890 en pantalla</div>
+			<input type="text" placeholder="Ingrese el váloc a mostrar" id="ejercicio2">
+			<input type="submit" onclick="cadenaNumero()" value="Mostrar">
+			<span id="mensajeCad" class="mensajes"></span>
+		</section>
+		
+		
+		
+		
+		<section>
+			<div id="ejercicio3" class="sections_titles">Crea un programa que escriba 1234 de forma vertical	</div>
+			<input type="submit" onclick="listarNumeros()" value="Muéstrame una lista">
+			<span id="mensajeLista" class="mensajes"></span>
+		</section>
+		<section>
+			<div class="sections_titles">Crea un programa que nos muestre el resultado de sumar 427 y 88	</div>
+			<input type="number" placeholder="Ingresa el válor 1" id="valor1">
+			<input type="number" placeholder="Ingresa el válor 2" id="valor2">
+			<input type="submit" onclick="sumarNumero()" value="Mostrar suma">
+			<span id="resultadoSuma" class="mensajes"></span>
+		</section>
+		<section>
+			<div id="ejercicio5" class="sections_titles">Escribe un programa que muestre en pantalla el resultado de las siguientes operaciones: <br> <br> (333/3) * 27 <br> 333+408-227*23 <br> (47-2)/3 <br>	2347*39
+			</div>
+			<input type="submit" onclick="resultadoOperaciones()" value="Mostrar Resultados">
+			<span id="resultado" class="mensajes"></span>
+		</section>
+		<section>
+			<div class="sections_titles">Crea un programa que nos diga cuántas horas tiene un año no bisiesto</div>
+			<input type="number" placeholder="Ingresa el número de años" id="ejercicio6" >
+			<input type="submit" onclick="horaAnios()" value="Cúantas Horas tiene el año">
+			<span id="mensajeHoras" class="mensajes"></span>
+		</section>
+		<section>
+			<div class="sections_titles" >Escribe un programa que nos diga cuántos minutos tiene una década. No tengas en cuenta los años bisiestos. </div>
+			<input type="number" placeholder="Ingresa el número de decadas" id="ejercicio7">
+			<input type="submit" onclick="minutosDecadas()" value="Cuántos minutos tiene una década">
+			<span id="mensajeDecadas" class="mensajes2"></span>
+		</section>
+		<section>
+			<div class="sections_titles" >Escribe un programa que nos diga cuántos meses tiene un siglo </div>
+			<input type="number"id="ejercicio8" placeholder="Ingresa el número de siglos" >
+			<input type="submit" onclick="mesesSiglos()" value="Cúantos meses tiene un siglo">
+			<span id="mensajeSiglos" class="mensajes2"></span>
+		</section>
+		<section>
+			<div class="sections_titles">Escribe un programa que nos diga cuánto chocolate vas a comer en tu vida teniendo  en cuenta el que comes cada día y que vas a vivir 80 años. Desprecia los años bisiestos </div>
+			<input type="number" id="chocolates" placeholder="Ingresa la cantidad de chocolates">
+			<input type="number" id="anios" placeholder="Ingresa los años">
+			<input type="submit" onclick="comerChocolate()" value="Cúanto chocolates comes">
+			<span id="mensajeChocolate" class="mensajes2"></span>
+		</section>
+		<section>
+			<div class="sections_titles">Crea un programa que te diga los segundos que tiene un día </div>
+			<input type="number" id="ejercicio10" placeholder="Ingresa la cantidad de dias">
+			<input type="submit" onclick="segundosDia()" value="Cúanto segundos hay">
+			<span id="mensajeSegundos" class="mensajes2"></span>
+		</section>
+		<section>
+			<div class="sections_titles">Escribe un programa que nos muestre en pantalla el resultado de las siguientes operaciones lógicas con números con </div>
+			<input type="number" id="expresion1" placeholder="Ingresa un válor">
+			<input type="text" id="operador" placeholder="Operador relacional">
+			<input type="number" id="expresion2" placeholder="Ingresa un válor">
+			<input type="submit" onclick="expresionesLogicas()" value="válidar">
+			<span id="mensajeOperaciones" class="mensajes2"></span>
+		</section>
+		<section>
+			<div class="sections_titles">Escribe diferentes programas que muestren en pantalla el resultado de las siguientes operaciones lógicas con cadenas de texto e indica lo que pasa </div>
+			<input type="text" id="expresions1" placeholder="Ingresa un caracter o cadena">
+			<input type="text" id="operadors" placeholder="Operador relacional">
+			<input type="text" id="expresions2" placeholder="Ingresa un caracter o cadena">
+			<input type="submit" onclick="operadorDatos()" value="válidar">
+			<span id="mensajeDatos" class="mensajes2"></span>
+		</section>
+	</main>
+	
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<script src="js/ejercicios.js"></script>
+</body>
+</html>
